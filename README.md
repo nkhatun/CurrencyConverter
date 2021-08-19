@@ -17,33 +17,26 @@ currency pair.
 ## Implementation
 The European Central Bank publishes reference exchange rates on a daily basis.
 You can find them here:
-https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_excha
-nge_rates/html/index.en.html
+**https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html**
 
 ## Technology
 - **Spring Boot**     - Server side framework
 - **Actuator**        - Application insights on the fly
 - **Junit**           - Unit testing framework
 - **jsoup**           - java html parser
+- **Java**            - 8
 
 ## Application Set up and Build Steps
-**Frontend** 
-Run the below command from the root directory
-1. `npm install` 
-2. `npm run build` 
-
 **Backend** 
 Run the below command from the root directory
 1. `mvn clean install`
 
 ## Running the server locally
-** Backend ** 
 Run the below command from the root directory
 1. `mvn spring-boot:run`
 URL: http://<host-name>:8888/
   
 ## Unit test cases
-**Backend** 
 Run the below command from the root directory
 1. `mvn clean test`
 
@@ -51,10 +44,10 @@ Run the below command from the root directory
 4 hr
 
 ## ENHANCEMENT SCOPE
-**Backend** 
   1. Microservices
   2. Swagger documentation
   3. Spring security
   4. Dockerizing the application
   5. Performance Testing
+  6. Frontend Integration
   
